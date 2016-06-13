@@ -1,0 +1,484 @@
+{
+  "name": "historical-adoption-of-technology",
+  "title": "Historical Adoption of Technology",
+  "descriptions": "Cross-country Historical Adoption of Technology for over than 150 countries since 1800 to 2008",
+  "licenses" : [
+    {
+      "type": "odc-pddl",
+      "url": "http://opendatacommons.org/licenses/pddl/"
+    }
+  ],
+  "keywords": [ "adoption of technology", "technology", "historical ttechnology", "CHAT"],
+  "version": "0.1.0",
+  "last_updated": "2016-06-13",
+  "sources": [
+    {
+      "name": "CHAT",
+      "web": "http://www.nber.org/data/"
+    }
+  ],
+  "resources": [
+    { 
+      "path": "data/historical-adoption-of-technology.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "country_name",
+            "type": "string"
+          },
+          {
+            "name": "year",
+            "type": "date"
+          },
+          {
+            "name": "ag_harvester",
+            "type": "number"
+          },
+          {
+            "name": "ag_milkingmachine",
+            "type": "number"
+          },
+          {
+            "name": "ag_tractor",
+            "type": "number"
+          },
+          {
+            "name": "atm",
+            "type": "number"
+          },
+          {
+            "name": "aviationpkm",
+            "type": "number"
+          },
+          {
+            "name": "aviationtkm",
+            "type": "number"
+          },
+          {
+            "name": "bed_acute",
+            "type": "number"
+          },
+          {
+            "name": "bed_hosp",
+            "type": "number"
+          },
+          {
+            "name": "bed_longterm",
+            "type": "number"
+          },
+          {
+            "name": "cabletv",
+            "type": "number"
+          },
+          {
+            "name": "cellphone",
+            "type": "number"
+          },
+          {
+            "name": "cheque",
+            "type": "number"
+          },
+          {
+            "name": "computer",
+            "type": "number"
+          },
+          {
+            "name": "creditdebit",
+            "type": "number"
+          },
+          {
+            "name": "eft",
+            "type": "number"
+          },
+          {
+            "name": "elecprod",
+            "type": "number"
+          },
+          {
+            "name": "fert_total",
+            "type": "number"
+          },
+          {
+            "name": "internetuser",
+            "type": "number"
+          },
+          
+          {
+            "name": "irrigatedarea",
+            "type": "number"
+          },
+          {
+            "name": "kidney_dialpat",
+            "type": "number"
+          },
+          {
+            "name": "kidney_homedialpat",
+            "type": "number"
+          },
+          {
+            "name": "loom_auto",
+            "type": "number"
+          },
+          {
+            "name": "loom_total",
+            "type": "number"
+          },
+          {
+            "name": "mail",
+            "type": "number"
+          },
+          {
+            "name": "med_catscanner",
+            "type": "number"
+          },
+          {
+            "name": "med_lithotriptor",
+            "type": "number"
+          },
+          {
+            "name": "med_mammograph",
+            "type": "number"
+          },
+          {
+            "name": "med_mriunit",
+            "type": "number"
+          },
+          {
+            "name": "med_radiationequip",
+            "type": "number"
+          },
+          {
+            "name": "newspaper",
+            "type": "number"
+          },
+          {
+            "name": "pctdaysurg_cataract",
+            "type": "number"
+          },
+          {
+            "name": "pctdaysurg_cholecyst",
+            "type": "number"
+          },
+          {
+            "name": "pctdaysurg_hernia",
+            "type": "number"
+          },
+          {
+            "name": "pctdaysurg_lapcholecyst",
+            "type": "number"
+          },
+          {
+            "name": "pctdaysurg_tonsil",
+            "type": "number"
+          },
+          {
+            "name": "pctdaysurg_varicosevein",
+            "type": "number"
+          },
+          {
+            "name": "pcthomedialysis",
+            "type": "number"
+          },
+          {
+            "name": "pctimmunizdpt",
+            "type": "number"
+          },
+          {
+            "name": "pctimmunizmeas",
+            "type": "number"
+          },
+          {
+            "name": "pctirrigated",
+            "type": "number"
+          },
+          {
+            "name": "pctmvbyarea",
+            "type": "number"
+          },
+          
+          {
+            "name": "pest_total",
+            "type": "number"
+          },
+          {
+            "name": "pos",
+            "type": "number"
+          },
+          {
+            "name": "radio",
+            "type": "number"
+          },
+          {
+            "name": "railline",
+            "type": "number"
+          },
+          {
+            "name": "railp",
+            "type": "number"
+          },
+          {
+            "name": "railpkm",
+            "type": "number"
+          },
+          {
+            "name": "railt",
+            "type": "number"
+          },
+          {
+            "name": "railtkm",
+            "type": "number"
+          },
+          {
+            "name": "ship_all",
+            "type": "number"
+          },
+          {
+            "name": "ship_motor",
+            "type": "number"
+          },
+          {
+            "name": "ship_sail",
+            "type": "number"
+          },
+          {
+            "name": "ship_steam",
+            "type": "number"
+          },
+          {
+            "name": "ship_steammotor",
+            "type": "number"
+          },
+          {
+            "name": "shipton_all",
+            "type": "number"
+          },
+          {
+            "name": "shipton_motor",
+            "type": "number"
+          },
+          {
+            "name": "shipton_sail",
+            "type": "number"
+          },
+          {
+            "name": "shipton_steam",
+            "type": "number"
+          },
+          {
+            "name": "shipton_steammotor",
+            "type": "number"
+          },
+          {
+            "name": "spindle_mule",
+            "type": "number"
+          },
+          
+          {
+            "name": "spindle_ring",
+            "type": "number"
+          },
+          {
+            "name": "steel_acidbess",
+            "type": "number"
+          },
+          {
+            "name": "steel_basicbess",
+            "type": "number"
+          },
+          {
+            "name": "steel_bof",
+            "type": "number"
+          },
+          {
+            "name": "steel_eaf",
+            "type": "number"
+          },
+          {
+            "name": "steel_ohf",
+            "type": "number"
+          },
+          {
+            "name": "steel_other",
+            "type": "number"
+          },
+          {
+            "name": "steel_stainless",
+            "type": "number"
+          },
+          {
+            "name": "surg_appendectomy",
+            "type": "number"
+          },
+          {
+            "name": "surg_breastcnsv",
+            "type": "number"
+          },
+          {
+            "name": "surg_cardcath",
+            "type": "number"
+          },
+          {
+            "name": "surg_cataract",
+            "type": "number"
+          },
+          {
+            "name": "surg_cholecyst",
+            "type": "number"
+          },
+          {
+            "name": "surg_corbypass",
+            "type": "number"
+          },
+          {
+            "name": "surg_corinterven",
+            "type": "number"
+          },
+          {
+            "name": "surg_corstent",
+            "type": "number"
+          },
+          {
+            "name": "surg_csection",
+            "type": "number"
+          },
+          {
+            "name": "surg_hernia",
+            "type": "number"
+          },
+          {
+            "name": "surg_hipreplace",
+            "type": "number"
+          },
+          {
+            "name": "surg_hysterectomy",
+            "type": "number"
+          },
+          {
+            "name": "surg_kneereplace",
+            "type": "number"
+          },
+          {
+            "name": "surg_lapcholecyst",
+            "type": "number"
+          },
+          {
+            "name": "surg_mastectomy",
+            "type": "number"
+          },
+          {
+            "name": "surg_pacemaker",
+            "type": "number"
+          },
+          {
+            "name": "surg_prostatetrans",
+            "type": "number"
+          },
+          {
+            "name": "surg_prostatextrans",
+            "type": "number"
+          },
+          {
+            "name": "surg_tonsil",
+            "type": "number"
+          },
+          {
+            "name": "surg_varicosevein",
+            "type": "number"
+          },
+          {
+            "name": "telegram",
+            "type": "number"
+          },
+          {
+            "name": "telephone",
+            "type": "number"
+          },
+          {
+            "name": "transplant_bonemarrow",
+            "type": "number"
+          },
+          {
+            "name": "transplant_heart",
+            "type": "number"
+          },
+          {
+            "name": "transplant_kidney",
+            "type": "number"
+          },
+          {
+            "name": "transplant_liver",
+            "type": "number"
+          },
+          {
+            "name": "transplant_lung",
+            "type": "number"
+          },
+          {
+            "name": "tv",
+            "type": "number"
+          },
+          {
+            "name": "txtlmat_artif",
+            "type": "number"
+          },
+          {
+            "name": "txtlmat_otherraw",
+            "type": "number"
+          },
+          {
+            "name": "txtlmat_synth",
+            "type": "number"
+          },
+          {
+            "name": "txtlmat_totalraw",
+            "type": "number"
+          },
+          {
+            "name": "vehicle_car",
+            "type": "number"
+          },
+          {
+            "name": "vehicle_com",
+            "type": "number"
+          },
+          {
+            "name": "visitorbeds",
+            "type": "number"
+          },
+          {
+            "name": "visitorrooms",
+            "type": "number"
+          },
+          {
+            "name": "xlpopulation",
+            "type": "number"
+          },
+          {
+            "name": "xlrealgdp",
+            "type": "number"
+          },
+          {
+            "name": "pctivprimeenroll",
+            "type": "number"
+          },
+          {
+            "name": "pctivsecenroll",
+            "type": "number"
+          },
+          {
+            "name": "pctivprivateinv",
+            "type": "number"
+          },
+          {
+            "name": "pctivpublicinv",
+            "type": "number"
+          },
+          {
+            "name": "pctivliteracy",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ]
+}
