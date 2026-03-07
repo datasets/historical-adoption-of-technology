@@ -18,7 +18,8 @@
     }
   ],
   "resources": [
-    { 
+    {
+      "name": "historical-adoption-of-technology",
       "path": "data/historical-adoption-of-technology.csv",
       "schema": {
         "fields": [
